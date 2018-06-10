@@ -150,6 +150,7 @@ table {
   .restaurantCard a .title {
     font-family: 'stratos-semibold';
     font-size: 1.1rem;
+    line-height: 1.4;
     color: #000;
     margin-top: 12px; }
   .restaurantCard a img {

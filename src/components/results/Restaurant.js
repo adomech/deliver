@@ -18,12 +18,18 @@ class Restaurant extends Component {
        price += '£';
     }
    
+    let visibility = { 
+      partialVisibility : 'top',
+      minTopValue: 10  
+    };
+   
     return (
       <div className="restaurantCard">
         <a href={ restaurant.url } >
           <LazyImage
             src={restaurant.image}
             placeholder={placeholderImage}
+            visibilitySensorProps = {visibility}
           >
             {(src) => <Image alt={ restaurant.name } src={src} />}
           </LazyImage>

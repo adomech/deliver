@@ -1,0 +1,42 @@
+.restaurantCard{
+	a{
+		text-decoration: none;
+		span{
+			font-family: 'adelle-sans-regular';
+			font-size: 0.8rem;
+			color: $grey;
+		}
+		.title{
+			font-family: 'stratos-semibold';
+			font-size: 1.1rem;
+			color: $black;
+			margin-top: 12px;
+		}
+		img{
+			width: 100%;
+			max-width: 100%;
+			height: auto;
+			display: block;
+		}
+		.tags{
+			margin-top: 12px;
+			@include flexbox();
+			@include flex-flow(wrap);
+			
+			li{
+			 &:after{
+			 	content:'\00B7';
+			 	padding: 0px 7px;
+			 	color: $grey;
+			 	font-size: 1.1rem;
+			 	vertical-align: middle;
+			  }
+			 &:last-child{
+			 	&:after{
+			 		content: none;
+			 	}
+			 } 
+			}
+		}
+	}	
+}

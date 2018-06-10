@@ -1,0 +1,15 @@
+.location-bar{
+	background-color: $background-green;
+	padding: 25px 0px 22px 0px;
+	@include screen-break(sm){
+		padding: 50px 0px;
+	}
+	.elements{
+		@include flexbox();
+		@include justify-content(space-between);
+		flex-direction: column;
+		@include screen-break(sm){
+			flex-direction: row;
+		}
+	}
+}

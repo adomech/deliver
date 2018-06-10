@@ -1,0 +1,25 @@
+.body{
+	font-size: 1em;
+}
+
+.container{
+	position: relative;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+   
+   	@include screen-break(md){
+		@include container-max(md);
+	}
+   	@include screen-break(lg){
+		@include container-max(lg);
+	}
+	@include screen-break(xl){
+		@include container-max(xl);
+	}
+   
+ }   

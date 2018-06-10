@@ -1,0 +1,40 @@
+$adelle-regular:   adelle-sans-regular;
+$adelle-bold:    adelle-sans-bold;
+$stratos-semibold:    stratos-semibold;
+
+// Backgrounds
+
+$background-green: #00ccbc;
+
+// Colors
+
+$black: #000;
+$white: #fff;
+$grey: #828585;
+$black-less: #00665e;
+$black-gr: #474b4b;
+$text-button: #00a396;
+$greenbg:#00ccbc;
+
+$deliveroo-font-path: "../../assets/fonts" !default;
+
+$icon-logo-horizontal: "\e900";
+$icon-logo-wordmark: "\e901";
+$icon-user-icon: "\e902";
+
+
+$breakpoints: (
+	'xs': ( min-width:  480px ),
+	'sm': ( min-width:  768px ),
+	'md': ( min-width:  992px ),
+	'lg': ( min-width:  1200px ),
+	'xl': ( min-width:  1600px )
+);
+
+$container-max-width: (
+	'xs': 420px,
+	'sm': 720px,
+	'md': 960px,
+	'lg': 1140px,
+	'xl': 1480px
+);

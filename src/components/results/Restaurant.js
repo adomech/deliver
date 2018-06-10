@@ -5,7 +5,7 @@ import styled from 'styled-components';
 import placeholderImage from '../../assets/svgs/placeholder.svg';
 
 const Image = styled.img`
-  transition: all 0.5s ease;
+  transition: all 0.2s ease;
 `;
 
 class Restaurant extends Component {
